@@ -175,8 +175,8 @@ public:
 	if (display)
 	  this->draw();
       }
-    std::cout << "Map of " << this->size_ << "generated and calcutated in " << al_get_time() - time << " !" << std::endl;
-    if (this->size_ < 2000)
+    std::cout << "Map of " << this->size_ << " generated and calcutated in " << al_get_time() - time << " !" << std::endl;
+    if (this->size_ <= 1000)
       {
 	this->draw();
 	al_rest(6);

@@ -4,20 +4,25 @@
 
 int				main()
 {
-  UF<5000>			uf(false);
+  // UF<5000>			uf(false);
 
-  uf.run(false);
+  // uf.run(false);
 
-  UF<500>			uf1(false);
+  UF<50>			uf3(false);
 
-  uf1.run(false);
+  uf3.run(true);
 
   UF<100>			uf2(false);
 
   uf2.run(false);
 
-  UF<50>			uf3(false);
+  UF<500>			uf1(false);
 
-  uf3.run(false);
+  uf1.run(false);
+
+  UF<1000>			uf0(false);
+
+  uf0.run(false);
+
   return 0;
 }
